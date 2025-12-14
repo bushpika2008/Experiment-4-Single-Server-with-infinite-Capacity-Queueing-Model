@@ -35,4 +35,7 @@ more intricate queueing systems and real-world service operations.
 
 # RESULT:
  The average number of material in the system and in the conveyor and waiting time are successfully found. 
+ # COLAB LINK:
+ https://colab.research.google.com/drive/1IU-mGHTNNElotj6YBh3fK43RwtrIu13R?usp=sharing
+ 
 
