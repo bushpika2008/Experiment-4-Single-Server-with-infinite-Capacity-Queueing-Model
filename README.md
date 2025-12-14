@@ -27,32 +27,8 @@ more intricate queueing systems and real-world service operations.
 # Procedure:
 <img width="667" height="157" alt="image" src="https://github.com/user-attachments/assets/15b37766-7967-4366-a3c9-60b3c9ef339b" />
 # PROGRAM:
-```
-arr_time=float(input("Enter the mean inter arrival time of objects from Feeder (in secs)"))
-ser_time=float(input("Enter the mean inter servie time of Lathe Machine (in secs):"))
-Robot_time=float(input("Enter the Additional time taken for the Robot (in secs):"))
-lam=1/arr_time
-mu=1/(ser_time+Robot_time)
-print("----------------------------------------")
-print("Single Server with Infinite Capacity-(M/M/1):(00/FIFO)")
-print("----------------------------------------")
-print("The mean arrival rate per second: %0.2f "%lam)
-print("The mean service rate per second: %0.2f "%mu)
-if(lam<mu):
- Ls=lam/(mu-lam)
- Lq=Ls-lam/mu
- Ws=Ls/lam
- Wq=Lq/lam
- print("Average number of objects in the system: %0.2f"%Ls)
- print("Average number of objects in the conveyer: %0.2f"%Lq)
- print("Average time spent by an object in the system: %0.2f"%Ws)
- print("Average time spent by an object in the conveyer: %0.2f"%Wq)
- print("Probability that the system is busy: %0.2f "%(lam/mu))
- print("Probability that the system is empty: %0.2f "%(1-lam/mu))
-else:
- print("Warning! Objects overflow will happen in the conveyer")
-print("----------------------------------------")
-```
+<img width="738" height="812" alt="image" src="https://github.com/user-attachments/assets/920d7f0e-40fc-4b76-a19a-af324f27d003" />
+
 
 # OUTPUT:
 <img width="883" height="343" alt="image" src="https://github.com/user-attachments/assets/16d2a205-a902-41c0-9c87-8fe2c4c6c0ae" />
