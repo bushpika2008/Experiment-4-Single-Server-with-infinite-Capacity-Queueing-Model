@@ -32,7 +32,7 @@ more intricate queueing systems and real-world service operations.
 
 # OUTPUT:
 <img width="883" height="343" alt="image" src="https://github.com/user-attachments/assets/16d2a205-a902-41c0-9c87-8fe2c4c6c0ae" />
-# Result:
- The average number of material in the system and in the conveyor and waiting time
-are successfully found. 
+
+# RESULT:
+ The average number of material in the system and in the conveyor and waiting time are successfully found. 
 
