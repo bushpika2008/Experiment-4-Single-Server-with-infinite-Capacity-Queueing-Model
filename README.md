@@ -53,6 +53,7 @@ else:
  print("Warning! Objects overflow will happen in the conveyer")
 print("----------------------------------------")
 ```
+
 # OUTPUT:
 <img width="883" height="343" alt="image" src="https://github.com/user-attachments/assets/16d2a205-a902-41c0-9c87-8fe2c4c6c0ae" />
 # Result:
